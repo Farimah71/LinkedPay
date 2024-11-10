@@ -1,0 +1,7 @@
+.ant-switch.ant-switch-checked {
+    @apply bg-success
+}
+
+.ant-switch.ant-switch-checked:hover {
+    @apply bg-success/70 !important
+}

@@ -1,0 +1,7 @@
+.rule__title {
+  @apply mt-5 mb-2 text-success font-medium text-sm;
+}
+
+.rule__text {
+  @apply text-xs font-normal;
+}

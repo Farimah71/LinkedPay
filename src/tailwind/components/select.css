@@ -1,0 +1,47 @@
+.select_field {
+  @apply px-0.5 border rounded-2xl py-2 relative h-[60px]
+}
+
+.select_field.error {
+  @apply border-error
+}
+
+.select {
+  @apply w-full h-6 !important;
+}
+
+.select:not(.select_field.value_selected) {
+  @apply mt-2.5
+}
+
+.select_field .placeholder_top {
+  @apply text-sm absolute text-[#18181C99] translate-y-3 left-3
+}
+
+.select_field.is_searching .placeholder_top{
+  @apply text-xs text-[#18181C99] left-3 absolute visible -translate-y-1 duration-200 transition-all
+}
+
+.select_field.value_selected .placeholder_top {
+  @apply text-xs text-[#18181C99] left-3 absolute visible -translate-y-1 duration-200 transition-all
+}
+
+.ant-select.ant-select-single .ant-select-selection-item {
+  @apply text-sm mt-1
+}
+
+.ant-select-selection-placeholder {
+  @apply text-[#18181C99] text-sm !important
+}
+
+.select_field .placeholder_top.error {
+  @apply text-error
+}
+
+.select_field.error .ant-select .ant-select-selector .ant-select-selection-placeholder {
+  @apply text-error opacity-100 !important
+}
+
+.ant-select-arrow {
+  @apply text-black p-1 !important;
+}

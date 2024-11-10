@@ -1,0 +1,52 @@
+{
+  "messages": [
+    {
+      "id": "1",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Sen",
+      "isAdmin": "true",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    },
+    {
+      "id": "2",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Zeynep A.",
+      "isAdmin": "false",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    },
+    {
+      "id": "3",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Zeynep A.",
+      "isAdmin": "false",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    },
+    {
+      "id": "1",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Sen",
+      "isAdmin": "true",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    },
+    {
+      "id": "2",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Zeynep A.",
+      "isAdmin": "false",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    },
+    {
+      "id": "3",
+      "text": "Large large deep bell steak garlic mushrooms onions. Sausage string pie white onions dolor bbq Bianca. Red parmesan beef garlic mushrooms large stuffed. Anchovies burnt Hawaiian beef meatball mushrooms broccoli. Olives lot pepperoni ranch Aussie mayo string pizza pesto party.",
+      "sender": "Zeynep A.",
+      "isAdmin": "false",
+      "date": " 18 Nisan 2024",
+      "time": "14:45"
+    }
+  ]
+}

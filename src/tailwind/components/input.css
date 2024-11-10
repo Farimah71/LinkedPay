@@ -1,0 +1,48 @@
+.form__group {
+  @apply relative px-3 py-2 border rounded-2xl;
+}
+
+.form__field {
+  width: 100%;
+  border: none;
+  outline: 0;
+  font-size: 14px;
+  color: #212121;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  padding-left: 2px;
+  margin-top: 7px;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+label.red__placeholder {
+  @apply text-error !important;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 14px;
+  cursor: text;
+  top: 19px;
+}
+
+.form__label:not(.checkbox_label),
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 5px;
+  display: block;
+  transition: 0.2s;
+  font-size: 12px;
+  color: #18181C99;
+}
+
+.form__field:focus ~ .form__label {
+  @apply text-base-content-60;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+}

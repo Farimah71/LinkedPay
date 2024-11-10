@@ -1,0 +1,15 @@
+.badge {
+    @apply inline-block text-sm text-actual-white px-2 py-[2px] rounded-lg capitalize;
+
+    &-primary {
+        @apply bg-base-blue;
+    }
+
+    &-success {
+        @apply bg-success;
+    }
+
+    &-error {
+        @apply bg-error;
+    }
+}

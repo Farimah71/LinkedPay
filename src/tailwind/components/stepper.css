@@ -1,0 +1,20 @@
+.ant-steps .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title,
+.ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+    @apply text-primary !important
+}
+
+.ant-steps .ant-steps-item-wait>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+    @apply text-primary/10 !important
+}
+
+.ant-steps.ant-steps-dot.ant-steps-small .ant-steps-item-icon .ant-steps-icon-dot {
+    @apply w-3 h-3 bg-primary/10
+}
+
+.ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after {
+    @apply bg-primary h-[1px] mt-0.5 !important
+}
+
+.ant-steps.ant-steps-dot.ant-steps-small .ant-steps-item-tail::after {
+    @apply bg-primary/10 h-[1px] mt-0.5
+}

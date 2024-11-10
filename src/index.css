@@ -1,0 +1,115 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./tailwind/component.css";
+
+:lang(fa) {
+  font-family: "Yekan";
+}
+
+
+.ant-menu {
+  background-color: #fafafa !important;
+}
+
+.ant-menu-title-content {
+  color: #18181c75 !important;
+}
+
+.ant-menu-item-icon {
+  color: #18181c75 !important;
+}
+
+/* ++++++++++ Scrollbar Customization ++++++++++ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: #bbbfca;
+}
+
+.no_scroll {
+  scrollbar-width: 0;
+}
+
+.no_scroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.scroll-element {
+  scrollbar-width: thin !important;
+  scrollbar-color: #bbbfca transparent !important;
+}
+
+.scroll-element::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+}
+
+.scroll-element::-webkit-scrollbar-thumb {
+  border-radius: 9999px !important;
+  background-color: #bbbfca;
+}
+
+/* ++++++++++ Animation for Popup ++++++++++ */
+@keyframes anvil {
+  0% {
+    transform: translateY(-70px);
+    opacity: 0.3;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+
+.popup-content {
+  -webkit-animation: anvil 0.4s ease forwards;
+}
+
+.ant-menu-item-group-title {
+  font-size: 12px;
+}
+
+/* ++++++++++ Input Customization ++++++++++ */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+@media (max-width: 640px) {
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px rgb(250 250 250) inset !important;
+  }
+}
+
+.ant-menu-item-selected {
+  background-color: unset;
+  color: red !important;
+}
+
+.recharts-text {
+  color: #94A3B8 !important;
+}
+
+
+
+
+
+.recharts-cartesian-axis-tick-value {
+  fill: #94A3B8 !important;
+}

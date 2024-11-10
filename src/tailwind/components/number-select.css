@@ -1,0 +1,31 @@
+.number_select .ant-select-selection-placeholder {
+    @apply text-[#18181C99] text-sm mt-2 !important
+}
+
+.number_select .ant-select-selection-item {
+    @apply mt-2 !important
+}
+
+.number_select .ant-select-selector {
+    @apply gap-x-2
+}
+
+.number_select .ant-select-arrow {
+    @apply mt-0
+}
+
+.borderless .number_select .ant-select-selection-placeholder {
+    @apply text-[#18181C99] text-sm -mt-1 !important
+}
+
+.borderless .number_select .ant-select-arrow {
+    @apply -mt-1.5
+}
+
+.borderless .number_select .ant-select-selection-item {
+    @apply -mt-0.5 font-semibold !important
+}
+
+.borderless .number_select .ant-select-selector {
+    @apply gap-x-2
+}

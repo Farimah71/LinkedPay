@@ -1,0 +1,7 @@
+.text_area {
+    @apply placeholder:text-[#18181C99] rounded-2xl pt-3
+}
+
+.ant-input-outlined {
+    @apply hover:border-[#d9d9e499] border-[#d9d9e499] focus:border-[#d9d9e499] focus:shadow-none
+}
