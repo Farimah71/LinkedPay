@@ -2,7 +2,7 @@
 > This repository is a sample project intended to demonstrate my coding skills. It is not the primary repository used by the team, which includes multiple branches and commits. For security reasons, sensitive information such as API keys and environment files has been excluded. This project is shared with permission to showcase my work. ✅
 
 
-# LinkedPay :credit_card:
+# LinkedPay :credit_card: <a id="linked-pay"></a>
 
 This project simplifies the payment process for users by generating payment links for purchased products. By leveraging key information such as the website, price, sales percentage, and product details, it creates seamless and efficient payment links, enhancing the user experience.
 
@@ -14,7 +14,7 @@ This project simplifies the payment process for users by generating payment link
 
 ## Table of contents
 
-- [LinkedPay](#linkedpay-credit_card-)
+- [LinkedPay](#linked-pay)
   * [Features](#features)
   * [Table of contents](#table-of-contents)
   * [Screenshots](#screenshots)
